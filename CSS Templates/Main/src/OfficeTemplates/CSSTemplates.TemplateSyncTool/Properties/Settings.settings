@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CSSTemplates.TemplateSyncTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="tenant" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ajgau.onmicrosoft.com</Value>
+    </Setting>
+    <Setting Name="clientid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">83141754-35c8-4bf9-9a1d-c125529856f0</Value>
+    </Setting>
+    <Setting Name="redirecturi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ajgau.sharepoint.com/sites/intranet</Value>
+    </Setting>
+    <Setting Name="TokenResourceUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ajgau.sharepoint.com</Value>
+    </Setting>
+    <Setting Name="TenantMetadataUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://login.microsoftonline.com/4f955c1f-62e5-44ef-8da3-051caaa6b103/federationmetadata/2007-06/federationmetadata.xml</Value>
+    </Setting>
+    <Setting Name="SharePointContextUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ajgau.sharepoint.com/sites/Applications/Templates/</Value>
+    </Setting>
+    <Setting Name="TemplateLibraryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OAMPSWordTemplates</Value>
+    </Setting>
+    <Setting Name="TemplateDownloadDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ProgramData\AJG\CSS Templates</Value>
+    </Setting>
+    <Setting Name="LetterTemplateLibraryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OAMPS Letters</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

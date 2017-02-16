@@ -1,0 +1,312 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OAMPS.Office.Word.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GraphicsPictureLibraryTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OAMPS Branding</Value>
+    </Setting>
+    <Setting Name="GraphicsPictureLibraryTitleLogos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Company Logos</Value>
+    </Setting>
+    <Setting Name="MajorPolicyClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Class of Insurance</Value>
+    </Setting>
+    <Setting Name="MinorPolicyClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Policy Type</Value>
+    </Setting>
+    <Setting Name="PreRenewalQuestionareMappingsListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PreRenewalQuestionareMappings</Value>
+    </Setting>
+    <Setting Name="ApprovedInsurersListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Approved Insurers List</Value>
+    </Setting>
+    <Setting Name="GeneralFragmentsListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fragments</Value>
+    </Setting>
+    <Setting Name="EmailAddressUFITo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">daniel.colarossi@oamps.com.au</Value>
+    </Setting>
+    <Setting Name="EmailAddressUFIFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">daniel.colarossi@oamps.com.au</Value>
+    </Setting>
+    <Setting Name="SMTP" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MinorQuestionClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Discovery Guide</Value>
+    </Setting>
+    <Setting Name="TopLevelQuestionClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Discovery Category</Value>
+    </Setting>
+    <Setting Name="PolicyFragmentKeysListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PolicyFragments</Value>
+    </Setting>
+    <Setting Name="GeneralFragmentKeysListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fragments</Value>
+    </Setting>
+    <Setting Name="HelpContentListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Word Help Content</Value>
+    </Setting>
+    <Setting Name="UsageReportingListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Usage Reporting</Value>
+    </Setting>
+    <Setting Name="PolicySchedulesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Quote Slip Schedules</Value>
+    </Setting>
+    <Setting Name="LibraryClaimsProcedures" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Claims Procedures</Value>
+    </Setting>
+    <Setting Name="ListProposalShortDocumentTitles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">proposal short document titles</Value>
+    </Setting>
+    <Setting Name="MainTemplatesLibraryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OAMPSWordTemplates</Value>
+    </Setting>
+    <Setting Name="TemplateInsuranceRenewalReport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\Insurance Renewal Report.docx</Value>
+    </Setting>
+    <Setting Name="aadInstance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://login.microsoftonline.com/{0}</Value>
+    </Setting>
+    <Setting Name="tenant" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ajgau.onmicrosoft.com</Value>
+    </Setting>
+    <Setting Name="clientid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">83141754-35c8-4bf9-9a1d-c125529856f0</Value>
+    </Setting>
+    <Setting Name="redirecturi" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ajgau.sharepoint.com/sites/intranet</Value>
+    </Setting>
+    <Setting Name="TemplateDiscoveryGuide" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\Discovery Guide.docx</Value>
+    </Setting>
+    <Setting Name="TemplateGenericLetter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\Generic Letter.docx</Value>
+    </Setting>
+    <Setting Name="TemplateInsuranceRenewalLetter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\Renewal Letter.docx</Value>
+    </Setting>
+    <Setting Name="TemplateQuoteSlip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\QuoteSlip.docx</Value>
+    </Setting>
+    <Setting Name="TenantMetadataUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://login.microsoftonline.com/4f955c1f-62e5-44ef-8da3-051caaa6b103/federationmetadata/2007-06/federationmetadata.xml</Value>
+    </Setting>
+    <Setting Name="TokenResourceUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ajgau.sharepoint.com</Value>
+    </Setting>
+    <Setting Name="TemplateLibraryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OAMPSWordTemplates</Value>
+    </Setting>
+    <Setting Name="LetterLibraryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OAMPS Letters</Value>
+    </Setting>
+    <Setting Name="LocalLibraryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CSSTemplates</Value>
+    </Setting>
+    <Setting Name="ClientFacing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Client Facing Documents</Value>
+    </Setting>
+    <Setting Name="NonClientFacing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Non Client Facing Documents</Value>
+    </Setting>
+    <Setting Name="LocalPathRoot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AJG\CSS Templates</Value>
+    </Setting>
+    <Setting Name="TemplateAgenda" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\Meeting Agenda.docx</Value>
+    </Setting>
+    <Setting Name="SharePointContextUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ajgau.sharepoint.com/sites/Applications/Templates/</Value>
+    </Setting>
+    <Setting Name="RelativeSitePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/sites/Applications/Templates/</Value>
+    </Setting>
+    <Setting Name="FragmentFSGLetter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\FSG Fragment_letter.docx</Value>
+    </Setting>
+    <Setting Name="FragmentWarning" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\General Advice Warniing Fragment.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_NewInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentFSG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\FSG Fragment.docx</Value>
+    </Setting>
+    <Setting Name="FragmentPrivacy" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Privacy Statement.docx</Value>
+    </Setting>
+    <Setting Name="FragmentUninsuredRisks" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Uninsured Risks Checklist.docx</Value>
+    </Setting>
+    <Setting Name="FragmentStatutory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Important Notices.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_ExistingInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_ExistingInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_ExistingInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_ExistingInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Service Plan Seg 2 v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Service Plan Seg 3 v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Service Plan Seg 4 v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Service Plan Seg 5 v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragementFeesRemuneration" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\OAMPS Professional Fees Remuneration.docx</Value>
+    </Setting>
+    <Setting Name="FragementFeesCommission" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\OAMPS Combined  Fee and commission.docx</Value>
+    </Setting>
+    <Setting Name="FragmentUFI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\UFI Declaration.doc</Value>
+    </Setting>
+    <Setting Name="FragmentTermsOfEngagement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Terms of Engagement.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_NewInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_NewInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_NewInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr NoContact_NewInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_ExistingInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_ExistingInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_ExistingInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_ExistingInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_NewInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_NewInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren Ltr YesContact_NewInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRRPurposeReport45" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren_Rpt_Purpose of Report SEG4and5.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRRPurposeReport23" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren_Rpt_Purpose of Report SEG2and3.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRREexSumFeeCommission" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Executive Summary_Fees_Commission Only.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRREexSumFeeCombine" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Executive Summary_Fees_Fee Only and Combination.docx</Value>
+    </Setting>
+    <Setting Name="FragmentAGMinutes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Fragement Agenda Minutes.docx</Value>
+    </Setting>
+    <Setting Name="FragmentClientProfile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Client Profile.docx</Value>
+    </Setting>
+    <Setting Name="TemplatePrerenewalQuestionare" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\Pre-Renewal Questionnaire.docx</Value>
+    </Setting>
+    <Setting Name="FragmentPRQApprovalForm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\PR Questionare Approval Form.docx</Value>
+    </Setting>
+    <Setting Name="FragmentPRQClaimsMadeWarning" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\PR Questionare Claims Made Warning.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRRPurposeReportGeneric" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Ren_Rpt Purpose of Report.docx</Value>
+    </Setting>
+    <Setting Name="BlankFSGFragement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Blank Fragment Base.docx</Value>
+    </Setting>
+    <Setting Name="PlacementSlipConditionsFragement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\PlacementSlipConditions.docx</Value>
+    </Setting>
+    <Setting Name="InformationForPolicyFragment" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Information for Policy.docx</Value>
+    </Setting>
+    <Setting Name="FragmentContractingProcedure" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Contracting Procedure.docx</Value>
+    </Setting>
+    <Setting Name="InsuranceProposalShortProgramSummary" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\InsuranceProposalShortProgramSummary.docx</Value>
+    </Setting>
+    <Setting Name="FragmentClientProfileShortFormProposal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Client Profile Insurance Proposal Short.docx</Value>
+    </Setting>
+    <Setting Name="BlankFragmentBaseOlly" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Blank Fragment Base Olly.docx</Value>
+    </Setting>
+    <Setting Name="FragmentClassOfInsurance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Class of Insurance.docx</Value>
+    </Setting>
+    <Setting Name="InsuranceManualProgramSummary" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\InsuranceManualProgramSummary.docx</Value>
+    </Setting>
+    <Setting Name="TemplateInsuranceManual" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\OAMPSWordTemplates\Insurance Manual.docx</Value>
+    </Setting>
+    <Setting Name="Segment1Graphic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Segment 1 graphic.docx</Value>
+    </Setting>
+    <Setting Name="Segment2Graphic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Segment 2 graphic.docx</Value>
+    </Setting>
+    <Setting Name="Segment3Graphic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Segment 3 graphic.docx</Value>
+    </Setting>
+    <Setting Name="Segment4Graphic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Segment 4 graphic.docx</Value>
+    </Setting>
+    <Setting Name="Segment5Graphic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">file://%ProgramData%\AJG\CSS Templates\Fragments\Segment 5 graphic.docx</Value>
+    </Setting>
+    <Setting Name="UpdateMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">This template has been updated and Word will now exit.</Value>
+    </Setting>
+    <Setting Name="LocalFullPathRoot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%ProgramData%\AJG\CSS Templates</Value>
+    </Setting>
+    <Setting Name="FieldValuesFileEnding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_fvs.txt</Value>
+    </Setting>
+    <Setting Name="ErrorLogPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%ProgramData%\AJG\CSS Templates\Logs</Value>
+    </Setting>
+    <Setting Name="UsageLogQueue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%ProgramData%\AJG\CSS Templates\UsageLogQueue.txt</Value>
+    </Setting>
+    <Setting Name="PeoplePickerSearchDomain" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SMI</Value>
+    </Setting>
+    <Setting Name="PeoplePickerSearchOU" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OU=Australia Broking,OU=ANZ Australia,OU=ANZ Locations,OU=ANZ,OU=LOCATIONS,DC=smi,DC=ajgco,DC=com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

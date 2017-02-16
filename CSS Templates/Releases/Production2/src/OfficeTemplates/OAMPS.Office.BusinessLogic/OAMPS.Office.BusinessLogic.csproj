@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FF8B236-1451-4D42-BD88-415F3A17FC56}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OAMPS.Office.BusinessLogic</RootNamespace>
+    <AssemblyName>OAMPS.Office.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\AnonymousComparer.cs" />
+    <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Helpers\GenericComparer.cs" />
+    <Compile Include="Helpers\ListExtenstions.cs" />
+    <Compile Include="Interfaces\IBaseView.cs" />
+    <Compile Include="Interfaces\SharePoint\IMinorPolicyClassListItem.cs" />
+    <Compile Include="Interfaces\SharePoint\IMinorPolicyClassList.cs" />
+    <Compile Include="Interfaces\SharePoint\ISharePointList.cs" />
+    <Compile Include="Interfaces\SharePoint\ISharePointListItem.cs" />
+    <Compile Include="Interfaces\SharePoint\ISharePointPictureLibrary.cs" />
+    <Compile Include="Interfaces\SharePoint\ISharePointPictureLibraryItem.cs" />
+    <Compile Include="Interfaces\Template\IAgenda.cs" />
+    <Compile Include="Interfaces\Template\IClientDiscovery.cs" />
+    <Compile Include="Interfaces\Template\IInsuranceRenewalReport.cs" />
+    <Compile Include="Interfaces\Template\IBaseTemplate.cs" />
+    <Compile Include="Interfaces\Template\IRenewalLetter.cs" />
+    <Compile Include="Interfaces\Template\ISummaryOfDiscussions.cs" />
+    <Compile Include="Interfaces\Wizards\IInsurer.cs" />
+    <Compile Include="Interfaces\Wizards\IPolicyClass.cs" />
+    <Compile Include="Interfaces\Wizards\IBaseWizard.cs" />
+    <Compile Include="Interfaces\Wizards\IQuestionClass.cs" />
+    <Compile Include="Interfaces\Wizards\ISummaryOfDiscussionWizard.cs" />
+    <Compile Include="Interfaces\Wizards\IThumbnail.cs" />
+    <Compile Include="Interfaces\Word\IApplication.cs" />
+    <Compile Include="Interfaces\Word\IDocument.cs" />
+    <Compile Include="Interfaces\Word\IRibbon.cs" />
+    <Compile Include="Models\Template\Agenda.cs" />
+    <Compile Include="Models\Template\BaseTemplate.cs" />
+    <Compile Include="Models\Template\ClientDiscovery.cs" />
+    <Compile Include="Models\Template\InsuranceRenewalReport.cs" />
+    <Compile Include="Models\Template\RenewalLetter.cs" />
+    <Compile Include="Models\Template\SummaryOfDiscussions.cs" />
+    <Compile Include="Models\Wizards\Insurer.cs" />
+    <Compile Include="Models\Wizards\DocumentFragment.cs" />
+    <Compile Include="Models\Wizards\PolicyClass.cs" />
+    <Compile Include="Models\Wizards\QuestionClass.cs" />
+    <Compile Include="Models\Wizards\Thumbnail.cs" />
+    <Compile Include="Presenters\AgendaPresenter.cs" />
+    <Compile Include="Presenters\ApplicatonPresenter.cs" />
+    <Compile Include="Presenters\BasePresenter.cs" />
+    <Compile Include="Presenters\ClientDiscoveryPresenter.cs" />
+    <Compile Include="Presenters\HelpContentPresenter.cs" />
+    <Compile Include="Presenters\InsuranceRenewealReportPresenter.cs" />
+    <Compile Include="Presenters\RenwalLetterPresenter.cs" />
+    <Compile Include="Presenters\SharePoint\SharePointListItemPresenter.cs" />
+    <Compile Include="Presenters\SharePoint\SharePointListPresenter.cs" />
+    <Compile Include="Presenters\SharePoint\SharePointPictureLibraryPresenter.cs" />
+    <Compile Include="Presenters\SummaryOfDiscussionPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistryProviderKey.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

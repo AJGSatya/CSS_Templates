@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f8766adb-0932-405f-98f1-6dfa3c7d7b5e" name="dan.colarossi@EME-W-583 2013-02-26 10:21:44" runUser="OAMPSINS\dan.colarossi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="48d37155-d630-460e-9546-ad3dd099f68e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dan.colarossi_EME-W-583 2013-02-26 10_21_44">
+      <DeploymentItem filename="C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.BusinessLogic\bin\Debug\OAMPS.Office.BusinessLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-26T10:21:44.9324352+11:00" queuing="2013-02-26T10:21:45.6980406+11:00" start="2013-02-26T10:21:45.7449144+11:00" finish="2013-02-26T10:21:59.3226918+11:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeletePageTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="1b5cab22-b096-8dca-cabb-5c3b5fed9e7c">
+      <Execution id="13c0162d-0bf8-4472-9f2b-3ddb194b8902" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeletePageTest" />
+    </UnitTest>
+    <UnitTest name="PopulateGraphicsTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="f627bdd4-9394-6b64-4afc-50259a015ba8">
+      <Execution id="1b956c92-8379-4088-b7c1-7139ff13c68c" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulateGraphicsTest" />
+    </UnitTest>
+    <UnitTest name="CheckNameTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="7b49b58e-3577-c433-2598-b8ae2fb1f3d2">
+      <Execution id="b47760c8-7c24-4750-812d-40abc15b785f" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b5cab22-b096-8dca-cabb-5c3b5fed9e7c" executionId="13c0162d-0bf8-4472-9f2b-3ddb194b8902" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b49b58e-3577-c433-2598-b8ae2fb1f3d2" executionId="b47760c8-7c24-4750-812d-40abc15b785f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f627bdd4-9394-6b64-4afc-50259a015ba8" executionId="1b956c92-8379-4088-b7c1-7139ff13c68c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="13c0162d-0bf8-4472-9f2b-3ddb194b8902" testId="1b5cab22-b096-8dca-cabb-5c3b5fed9e7c" testName="DeletePageTest" computerName="EME-W-583" duration="00:00:00.0087558" startTime="2013-02-26T10:21:45.7761636+11:00" endTime="2013-02-26T10:21:46.2136524+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13c0162d-0bf8-4472-9f2b-3ddb194b8902">
+    </UnitTestResult>
+    <UnitTestResult executionId="b47760c8-7c24-4750-812d-40abc15b785f" testId="7b49b58e-3577-c433-2598-b8ae2fb1f3d2" testName="CheckNameTest" computerName="EME-W-583" duration="00:00:00.0012998" startTime="2013-02-26T10:21:46.2449016+11:00" endTime="2013-02-26T10:21:46.2449016+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b47760c8-7c24-4750-812d-40abc15b785f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b956c92-8379-4088-b7c1-7139ff13c68c" testId="f627bdd4-9394-6b64-4afc-50259a015ba8" testName="PopulateGraphicsTest" computerName="EME-W-583" duration="00:00:13.0017789" startTime="2013-02-26T10:21:46.2605262+11:00" endTime="2013-02-26T10:21:59.2758180+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b956c92-8379-4088-b7c1-7139ff13c68c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at OAMPS.Office.Tests.UnitTest.DocumentPresenterTest.PopulateGraphicsTest() in C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.Tests.UnitTest\DocumentPresenterTest.cs:line 208
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

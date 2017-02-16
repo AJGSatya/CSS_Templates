@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id="oamps" label="OAMPS CSS" >
+               
+              <group id="grpOAMPS" label="General">
+                    <button id="btnWizard" onAction="btnWizard_Click" label="Wizard" getImage="GetImage" size="large"  />
+                    <button id="btnHelp" onAction="btnHelp_Click" label="Help" size="large" getImage="GetImage"  />
+                    
+                    <button id="btnAbout" onAction="btnAbout_Click" label="About" getImage="GetImage" size="large" />
+                <button id="btnSyncField" onAction="btnSyncField_Click" label="Sync Field" getImage="GetImage" size="large" visible="false" />    
+                </group>
+
+              <group id="grpOAMPSPreRenewal" label="Pre Renewal">
+                <button id="btnUpdateFields" onAction="btnUpdateFields_Click" label="Sync Premiums" getImage="GetImage" size="large" getEnabled="btnUpdateFields_GetEnabled"/>
+              </group>
+
+              <group id="grpOAMPSFactFinder" label="Fact Finder">
+                <button id="btnSyncTable" onAction="btnSyncTable_Click" label="Sync Q'nnaires" getImage="GetImage" size="large" getEnabled="btnSyncTable_GetEnabled" />
+              </group>
+            </tab>
+
+          <tab idMso="TabHome">
+            <group id="grpHomeOAMPS" label="OAMPS CSS" insertBeforeMso="GroupStyles">
+              <button id="btnWizardHome" onAction="btnWizard_Click" label="Wizard" getImage="GetImage" size="normal" />
+              <button id="btnHelpHome" onAction="btnHelp_Click" label="Help" size="normal" getImage="GetImage"  />
+              <button id="btnUpdateFieldsHome" onAction="btnUpdateFields_Click" label="Sync Premiums" getImage="GetImage" size="normal" getEnabled="btnUpdateFields_GetEnabled" />
+              <button id="btnAboutHome" onAction="btnAbout_Click" label="About" getImage="GetImage" size="normal" />
+              <button id="btnSyncTableHome" onAction="btnSyncTable_Click" label="Sync Q'nnaires" getImage="GetImage" size="normal" getEnabled="btnSyncTable_GetEnabled" />
+            </group>
+          </tab>
+        </tabs>
+    </ribbon>
+</customUI>

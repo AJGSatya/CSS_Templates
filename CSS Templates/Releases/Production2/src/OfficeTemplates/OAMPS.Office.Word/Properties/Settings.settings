@@ -1,0 +1,180 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OAMPS.Office.Word.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GraphicsPictureLibraryTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OAMPS Branding</Value>
+    </Setting>
+    <Setting Name="GraphicsPictureLibraryTitleLogos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Company Logos</Value>
+    </Setting>
+    <Setting Name="MajorPolicyClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Class of Insurance</Value>
+    </Setting>
+    <Setting Name="MinorPolicyClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Policy Type</Value>
+    </Setting>
+    <Setting Name="PolicyFragmentsListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PolicyFragments</Value>
+    </Setting>
+    <Setting Name="ApprovedInsurersListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Approved Insurers List</Value>
+    </Setting>
+    <Setting Name="GeneralFragmentsListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fragments</Value>
+    </Setting>
+    <Setting Name="EmailAddressUFITo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">daniel.colarossi@oamps.com.au</Value>
+    </Setting>
+    <Setting Name="EmailAddressUFIFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">daniel.colarossi@oamps.com.au</Value>
+    </Setting>
+    <Setting Name="SMTP" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MinorQuestionClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Discovery Guide</Value>
+    </Setting>
+    <Setting Name="TopLevelQuestionClassesListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Discovery Category</Value>
+    </Setting>
+    <Setting Name="PolicyFragmentKeysListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PolicyFragments</Value>
+    </Setting>
+    <Setting Name="GeneralFragmentKeysListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fragments</Value>
+    </Setting>
+    <Setting Name="SharePointContextUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://templates.oamps.com.au/</Value>
+    </Setting>
+    <Setting Name="HelpContentListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Word Help Content</Value>
+    </Setting>
+    <Setting Name="FragmentWarning" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/General%20Advice%20Warniing%20Fragment.docx</Value>
+    </Setting>
+    <Setting Name="FragmentFSG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/FSG%20Fragment.docx</Value>
+    </Setting>
+    <Setting Name="FragmentPrivacy" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Privacy%20Statement.docx</Value>
+    </Setting>
+    <Setting Name="FragmentUninsuredRisks" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Uninsured%20Risks%20Checklist.docx</Value>
+    </Setting>
+    <Setting Name="FragmentStatutory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Important%20Notices.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_ExistingInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_ExistingInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_ExistingInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_ExistingInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_ExistingInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Service%20Plan%20Seg%202%20v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Service%20Plan%20Seg%203%20v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Service%20Plan%20Seg%204%20v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragmentServicePlanSeg5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Service%20Plan%20Seg%205%20v0.1.docx</Value>
+    </Setting>
+    <Setting Name="FragementFeesRemuneration" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/OAMPS%20Professional%20Fees%20Remuneration.docx</Value>
+    </Setting>
+    <Setting Name="FragementFeesCommission" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/OAMPS%20Combined%20%20Fee%20and%20commission.docx</Value>
+    </Setting>
+    <Setting Name="FragmentClassOfInsurance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Class%20of%20Insurance.docx</Value>
+    </Setting>
+    <Setting Name="FragmentUFI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/UFI%20Declaration.doc</Value>
+    </Setting>
+    <Setting Name="FragmentTermsOfEngagement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Terms%20of%20Engagement.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_NewInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_NewInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_NewInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLNoContact_NewInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20NoContact_NewInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_ExistingInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_ExistingInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_ExistingInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_ExistingInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_ExistingInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_NoGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_NewInsr_NoGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_NoGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_NewInsr_NoGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_YesGAW_NoFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_NewInsr_YesGAW_NoFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRLYesContact_NewInsr_YesGAW_YesFunding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Ren%20Ltr%20YesContact_NewInsr_YesGAW_YesFunding.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRRPurposeReport45" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Purpose%20of%20Report%20SEG4and5.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRRPurposeReport23" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Purpose%20of%20Report%20SEG2and3.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRREexSumFeeCommission" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Executive%20Summary_Fees_Commission%20Only.docx</Value>
+    </Setting>
+    <Setting Name="FragmentRREexSumFeeCombine" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Executive%20Summary_Fees_Fee%20Only%20and%20Combination.docx</Value>
+    </Setting>
+    <Setting Name="FragmentAGMinutes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Fragement%20Agenda%20Minutes.docx</Value>
+    </Setting>
+    <Setting Name="UsageReportingListName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Usage Reporting</Value>
+    </Setting>
+    <Setting Name="FragmentClientProfile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Client%20Profile.docx</Value>
+    </Setting>
+    <Setting Name="TemplateInsuranceRenewalReport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/OAMPSWordTemplates/Insurance%20Renewal%20Report.docx</Value>
+    </Setting>
+    <Setting Name="TemplateInsuranceRenewalLetter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/OAMPSWordTemplates/Renewal%20Letter.docx</Value>
+    </Setting>
+    <Setting Name="TemplateDiscoveryGuide" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/OAMPSWordTemplates/Discovery%20Guide.docx</Value>
+    </Setting>
+    <Setting Name="TemplateAgenda" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/OAMPSWordTemplates/Meeting%20Agenda.docx</Value>
+    </Setting>
+    <Setting Name="BlankFragmentBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/Fragments/Blank%20Fragment%20Base.docx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

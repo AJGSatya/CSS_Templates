@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="29161e94-9fb7-4eb8-a96d-48c3999b61e5" name="dan.colarossi@EME-W-583 2013-02-20 16:46:05" runUser="OAMPSINS\dan.colarossi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="48d37155-d630-460e-9546-ad3dd099f68e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dan.colarossi_EME-W-583 2013-02-20 16_46_05">
+      <DeploymentItem filename="C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.BusinessLogic\bin\Debug\OAMPS.Office.BusinessLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-20T16:46:05.4279085+11:00" queuing="2013-02-20T16:46:05.6310322+11:00" start="2013-02-20T16:46:05.6622820+11:00" finish="2013-02-20T16:46:05.9122804+11:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PopulateGraphicsTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="f627bdd4-9394-6b64-4afc-50259a015ba8">
+      <Execution id="9ad2a334-72a6-475f-b697-c7eaf7bdc967" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulateGraphicsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f627bdd4-9394-6b64-4afc-50259a015ba8" executionId="9ad2a334-72a6-475f-b697-c7eaf7bdc967" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9ad2a334-72a6-475f-b697-c7eaf7bdc967" testId="f627bdd4-9394-6b64-4afc-50259a015ba8" testName="PopulateGraphicsTest" computerName="EME-W-583" duration="00:00:00.0129024" startTime="2013-02-20T16:46:05.6622820+11:00" endTime="2013-02-20T16:46:05.8966555+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ad2a334-72a6-475f-b697-c7eaf7bdc967">
+    </UnitTestResult>
+  </Results>
+</TestRun>

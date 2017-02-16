@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="478eea4a-bab7-4faf-b4ef-7f91cf1397f6" name="dan.colarossi@EME-W-583 2013-07-03 16:14:15" runUser="OAMPSINS\dan.colarossi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="48d37155-d630-460e-9546-ad3dd099f68e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dan.colarossi_EME-W-583 2013-07-03 16_14_15">
+      <DeploymentItem filename="C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.BusinessLogic\bin\Debug\OAMPS.Office.BusinessLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-07-03T16:14:15.0714289+10:00" queuing="2013-07-03T16:14:15.8057992+10:00" start="2013-07-03T16:14:15.9464233+10:00" finish="2013-07-03T16:14:29.2432132+10:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PopulateGraphicsTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="09412fa5-a87a-794a-874a-44bf2fc68153">
+      <Execution id="94e102d9-5e5c-4788-a3c2-3b822833be96" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulateGraphicsTest" />
+    </UnitTest>
+    <UnitTest name="LoadIncludedPolicyClassesTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="656dd4e3-f4ca-d94f-64f3-22c9b1779827">
+      <Execution id="82c6401e-9fd7-4825-ab42-10d75277425d" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadIncludedPolicyClassesTest" />
+    </UnitTest>
+    <UnitTest name="PopulateImportantNoticesTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="7258d20b-e5a9-3ccc-1de2-afddb63763d5">
+      <Execution id="70ffde59-84a0-4759-9099-b957112f6bd9" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulateImportantNoticesTest" />
+    </UnitTest>
+    <UnitTest name="DeletePageTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="befde1ec-4b46-714d-560e-66dcd6bd3ef1">
+      <Execution id="0889e44a-f6f2-43e6-ae87-e100cd333a85" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeletePageTest" />
+    </UnitTest>
+    <UnitTest name="PopulateBasisOfCoverTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="be201511-b4c4-b775-8b4f-a19d98eaec7a">
+      <Execution id="a78c99ef-9068-48ad-aa15-8d84ff272820" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulateBasisOfCoverTest" />
+    </UnitTest>
+    <UnitTest name="CheckNameTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="9d39ceac-35f1-f4cd-6c57-ae90f580cb86">
+      <Execution id="1af204e6-8108-48c7-b0ad-7cd44c5e551c" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09412fa5-a87a-794a-874a-44bf2fc68153" executionId="94e102d9-5e5c-4788-a3c2-3b822833be96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="656dd4e3-f4ca-d94f-64f3-22c9b1779827" executionId="82c6401e-9fd7-4825-ab42-10d75277425d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7258d20b-e5a9-3ccc-1de2-afddb63763d5" executionId="70ffde59-84a0-4759-9099-b957112f6bd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d39ceac-35f1-f4cd-6c57-ae90f580cb86" executionId="1af204e6-8108-48c7-b0ad-7cd44c5e551c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be201511-b4c4-b775-8b4f-a19d98eaec7a" executionId="a78c99ef-9068-48ad-aa15-8d84ff272820" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="befde1ec-4b46-714d-560e-66dcd6bd3ef1" executionId="0889e44a-f6f2-43e6-ae87-e100cd333a85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="94e102d9-5e5c-4788-a3c2-3b822833be96" testId="09412fa5-a87a-794a-874a-44bf2fc68153" testName="PopulateGraphicsTest" computerName="EME-W-583" duration="00:00:00.0128751" startTime="2013-07-03T16:14:16.1026723+10:00" endTime="2013-07-03T16:14:16.5401695+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94e102d9-5e5c-4788-a3c2-3b822833be96">
+    </UnitTestResult>
+    <UnitTestResult executionId="82c6401e-9fd7-4825-ab42-10d75277425d" testId="656dd4e3-f4ca-d94f-64f3-22c9b1779827" testName="LoadIncludedPolicyClassesTest" computerName="EME-W-583" duration="00:00:00.0032316" startTime="2013-07-03T16:14:16.5401695+10:00" endTime="2013-07-03T16:14:16.5557944+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82c6401e-9fd7-4825-ab42-10d75277425d">
+    </UnitTestResult>
+    <UnitTestResult executionId="70ffde59-84a0-4759-9099-b957112f6bd9" testId="7258d20b-e5a9-3ccc-1de2-afddb63763d5" testName="PopulateImportantNoticesTest" computerName="EME-W-583" duration="00:00:12.4926614" startTime="2013-07-03T16:14:16.5557944+10:00" endTime="2013-07-03T16:14:29.1650887+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70ffde59-84a0-4759-9099-b957112f6bd9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest.PopulateImportantNoticesTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest.UnitTestDocument.InsertPageBreak() in C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.Tests.UnitTest\InsuranceRenewealReportPresenterTest.cs:line 233
+   at OAMPS.Office.BusinessLogic.Presenters.InsuranceRenewealReportPresenter.PopulateImportantNotices(Statutory statutory, String importantNoticesUrl, String privacyStatementUrl, String fsgUrl, String termsOfEngagementUrl) in C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.BusinessLogic\Presenters\InsuranceRenewealReportPresenter.cs:line 398
+   at OAMPS.Office.Tests.UnitTest.InsuranceRenewealReportPresenterTest.PopulateImportantNoticesTest() in C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.Tests.UnitTest\InsuranceRenewealReportPresenterTest.cs:line 607
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1af204e6-8108-48c7-b0ad-7cd44c5e551c" testId="9d39ceac-35f1-f4cd-6c57-ae90f580cb86" testName="CheckNameTest" computerName="EME-W-583" duration="00:00:00.0012632" startTime="2013-07-03T16:14:29.1807136+10:00" endTime="2013-07-03T16:14:29.1807136+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1af204e6-8108-48c7-b0ad-7cd44c5e551c">
+    </UnitTestResult>
+    <UnitTestResult executionId="a78c99ef-9068-48ad-aa15-8d84ff272820" testId="be201511-b4c4-b775-8b4f-a19d98eaec7a" testName="PopulateBasisOfCoverTest" computerName="EME-W-583" duration="00:00:00.0024986" startTime="2013-07-03T16:14:29.1807136+10:00" endTime="2013-07-03T16:14:29.1963385+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a78c99ef-9068-48ad-aa15-8d84ff272820">
+    </UnitTestResult>
+    <UnitTestResult executionId="0889e44a-f6f2-43e6-ae87-e100cd333a85" testId="befde1ec-4b46-714d-560e-66dcd6bd3ef1" testName="DeletePageTest" computerName="EME-W-583" duration="00:00:00.0017549" startTime="2013-07-03T16:14:29.1963385+10:00" endTime="2013-07-03T16:14:29.1963385+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0889e44a-f6f2-43e6-ae87-e100cd333a85">
+    </UnitTestResult>
+  </Results>
+</TestRun>

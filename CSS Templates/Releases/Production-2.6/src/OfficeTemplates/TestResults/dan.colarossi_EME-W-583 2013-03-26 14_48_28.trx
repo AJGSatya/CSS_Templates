@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d68b07f2-1c44-49c6-8082-e9ae4aadeff8" name="dan.colarossi@EME-W-583 2013-03-26 14:48:28" runUser="OAMPSINS\dan.colarossi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="48d37155-d630-460e-9546-ad3dd099f68e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dan.colarossi_EME-W-583 2013-03-26 14_48_28">
+      <DeploymentItem filename="C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.BusinessLogic\bin\Debug\OAMPS.Office.BusinessLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-26T14:48:28.4340073+11:00" queuing="2013-03-26T14:48:29.8089545+11:00" start="2013-03-26T14:48:29.8558277+11:00" finish="2013-03-26T14:48:30.3089353+11:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeletePageTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="1b5cab22-b096-8dca-cabb-5c3b5fed9e7c">
+      <Execution id="bbd0dd94-7006-4051-aa80-a8464052dbb8" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeletePageTest" />
+    </UnitTest>
+    <UnitTest name="PopulateBasisOfCoverTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="b05a6cf1-9ef2-93d6-1ebe-088522f2b4e1">
+      <Execution id="7bd5c3aa-db08-456b-91db-451b23ff6636" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulateBasisOfCoverTest" />
+    </UnitTest>
+    <UnitTest name="PopulateGraphicsTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="f627bdd4-9394-6b64-4afc-50259a015ba8">
+      <Execution id="4535f659-73bb-4546-bc31-aeca8b11e012" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PopulateGraphicsTest" />
+    </UnitTest>
+    <UnitTest name="CheckNameTest" storage="c:\projects\obscode\oamps\oamps\wordautomation\main\src\officetemplates\oamps.office.tests.unittest\bin\debug\oamps.office.tests.unittest.dll" id="7b49b58e-3577-c433-2598-b8ae2fb1f3d2">
+      <Execution id="0fdc2627-b9f4-4358-b6c6-c1bb17d81901" />
+      <TestMethod codeBase="C:/Projects/obscode/OAMPS/OAMPS/WordAutomation/Main/src/OfficeTemplates/OAMPS.Office.Tests.UnitTest/bin/Debug/OAMPS.Office.Tests.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OAMPS.Office.Tests.UnitTest.DocumentPresenterTest, OAMPS.Office.Tests.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b5cab22-b096-8dca-cabb-5c3b5fed9e7c" executionId="bbd0dd94-7006-4051-aa80-a8464052dbb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b49b58e-3577-c433-2598-b8ae2fb1f3d2" executionId="0fdc2627-b9f4-4358-b6c6-c1bb17d81901" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b05a6cf1-9ef2-93d6-1ebe-088522f2b4e1" executionId="7bd5c3aa-db08-456b-91db-451b23ff6636" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f627bdd4-9394-6b64-4afc-50259a015ba8" executionId="4535f659-73bb-4546-bc31-aeca8b11e012" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bbd0dd94-7006-4051-aa80-a8464052dbb8" testId="1b5cab22-b096-8dca-cabb-5c3b5fed9e7c" testName="DeletePageTest" computerName="EME-W-583" duration="00:00:00.0108949" startTime="2013-03-26T14:48:29.8558277+11:00" endTime="2013-03-26T14:48:30.1995645+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbd0dd94-7006-4051-aa80-a8464052dbb8">
+    </UnitTestResult>
+    <UnitTestResult executionId="0fdc2627-b9f4-4358-b6c6-c1bb17d81901" testId="7b49b58e-3577-c433-2598-b8ae2fb1f3d2" testName="CheckNameTest" computerName="EME-W-583" duration="00:00:00.0011166" startTime="2013-03-26T14:48:30.2151889+11:00" endTime="2013-03-26T14:48:30.2151889+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fdc2627-b9f4-4358-b6c6-c1bb17d81901">
+    </UnitTestResult>
+    <UnitTestResult executionId="7bd5c3aa-db08-456b-91db-451b23ff6636" testId="b05a6cf1-9ef2-93d6-1ebe-088522f2b4e1" testName="PopulateBasisOfCoverTest" computerName="EME-W-583" duration="00:00:00.0631119" startTime="2013-03-26T14:48:30.2151889+11:00" endTime="2013-03-26T14:48:30.2776865+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bd5c3aa-db08-456b-91db-451b23ff6636">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method OAMPS.Office.Tests.UnitTest.DocumentPresenterTest.PopulateBasisOfCoverTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at OAMPS.Office.Tests.UnitTest.DocumentPresenterTest.PopulateBasisOfCoverTest() in C:\Projects\obscode\OAMPS\OAMPS\WordAutomation\Main\src\OfficeTemplates\OAMPS.Office.Tests.UnitTest\DocumentPresenterTest.cs:line 361
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4535f659-73bb-4546-bc31-aeca8b11e012" testId="f627bdd4-9394-6b64-4afc-50259a015ba8" testName="PopulateGraphicsTest" computerName="EME-W-583" duration="00:00:00.0022296" startTime="2013-03-26T14:48:30.2933109+11:00" endTime="2013-03-26T14:48:30.2933109+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4535f659-73bb-4546-bc31-aeca8b11e012">
+    </UnitTestResult>
+  </Results>
+</TestRun>

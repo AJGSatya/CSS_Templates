@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--
+    This section defines project-level properties.
+
+    AssemblyName
+      Name of the output assembly.
+    Configuration
+      Specifies a default value for debug.
+    OutputType
+      Must be "Library" for VSTO.
+    Platform
+      Specifies what CPU the output of this project can run on.
+    NoStandardLibraries
+      Set to "false" for VSTO.
+    RootNamespace
+      In C#, this specifies the namespace given to new files. In VB, all objects are
+      wrapped in this namespace at runtime.
+  -->
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6935B2E3-53D7-4BEC-B1A7-45427971393B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RootNamespace>OAMPS.Office.Word</RootNamespace>
+    <AssemblyName>OAMPS.Office.Word</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <DefineConstants>VSTO40</DefineConstants>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>\\eme-s-file01\commercial group\pmo\01 The OAMPS Client Service Standards Program\51 templateinstaller\</PublishUrl>
+    <InstallUrl>\\eme-s-file01\commercial group\pmo\01 The OAMPS Client Service Standards Program\51 templateinstaller\</InstallUrl>
+    <TargetCulture>en</TargetCulture>
+    <ApplicationVersion>1.2.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>false</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>0</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>OAMPS Word Templates</ProductName>
+    <PublisherName>OBS</PublisherName>
+    <SupportUrl />
+    <FriendlyName>OAMPS Word Templates</FriendlyName>
+    <OfficeApplicationDescription />
+    <LoadBehavior>3</LoadBehavior>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <!--
+      OfficeApplication
+        Add-in host application
+    -->
+    <OfficeApplication>Word</OfficeApplication>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Debug" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Release" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!--
+    This section enables pre- and post-build steps. However, in VSTO use
+    MSBuild tasks instead of these properties.       
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>OAMPS.Office.Word_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>56D3C3F7DF2A0FE4B2F81EA79770CBCA79858324</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <!--
+    This section specifies references for the project.
+  -->
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Microsoft.SharePoint.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Includes\Microsoft.SharePoint.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Includes\Microsoft.SharePoint.Client.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Word, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <!--
+    This section defines the user source files that are part of the project.
+     
+    A "Compile" element specifies a source file to compile.
+    An "EmbeddedResource" element specifies an .resx file for embedded resources.
+    A "None" element specifies a file that is not to be passed to the compiler (for instance, 
+    a text file or XML file).
+    The "AppDesigner" element specifies the directory where the application properties files
+    can be found.
+  -->
+  <ItemGroup>
+    <Compile Include="Helpers\Controls\AdvancedTreeNode.cs" />
+    <Compile Include="Helpers\Controls\RequiredFieldLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Controls\Validation.cs" />
+    <Compile Include="Helpers\Controls\ValueRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\DocumentExtensions.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Models\ActiveDirectory\UserPrincipalEx.cs" />
+    <Compile Include="Models\ActiveDirectory\UserPrincipalExSearchFilter.cs" />
+    <Compile Include="Models\SharePoint\MinorPolicyClassList.cs" />
+    <Compile Include="Models\SharePoint\MinorPolicyClassListItem.cs" />
+    <Compile Include="Models\SharePoint\SharePoinPictureLibrary.cs" />
+    <Compile Include="Models\SharePoint\SharePointList.cs" />
+    <Compile Include="Models\SharePoint\SharePointListItem.cs" />
+    <Compile Include="Models\SharePoint\SharePointPictureLibraryItem.cs" />
+    <Compile Include="Models\Word\OfficeDocument.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ribbon.cs">
+      <XmlRibbon>true</XmlRibbon>
+    </Compile>
+    <Compile Include="Ribbon1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ribbon1.Designer.cs">
+      <DependentUpon>Ribbon1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Help\HelpWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Help\HelpWizard.Designer.cs">
+      <DependentUpon>HelpWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\ClientDiscoveryWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\ClientDiscoveryWizard.Designer.cs">
+      <DependentUpon>ClientDiscoveryWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\InsuranceRenewalReportWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\InsuranceRenewalReportWizard.Designer.cs">
+      <DependentUpon>InsuranceRenewalReportWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\Popups\EnterInsurer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\Popups\EnterInsurer.Designer.cs">
+      <DependentUpon>EnterInsurer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\Popups\Insurers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\Popups\Insurers.Designer.cs">
+      <DependentUpon>Insurers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\Popups\PeoplePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\Popups\PeoplePicker.Designer.cs">
+      <DependentUpon>PeoplePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\PreRenewalAgendaWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\PreRenewalAgendaWizard.Designer.cs">
+      <DependentUpon>PreRenewalAgendaWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\RenewalLetterWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\RenewalLetterWizard.Designer.cs">
+      <DependentUpon>RenewalLetterWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wizards\SummaryOfDiscussionWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wizards\SummaryOfDiscussionWizard.Designer.cs">
+      <DependentUpon>SummaryOfDiscussionWizard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Ribbon1.resx">
+      <DependentUpon>Ribbon1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Help\HelpWizard.resx">
+      <DependentUpon>HelpWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\ClientDiscoveryWizard.resx">
+      <DependentUpon>ClientDiscoveryWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\InsuranceRenewalReportWizard.resx">
+      <DependentUpon>InsuranceRenewalReportWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\Popups\EnterInsurer.resx">
+      <DependentUpon>EnterInsurer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\Popups\Insurers.resx">
+      <DependentUpon>Insurers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\Popups\PeoplePicker.resx">
+      <DependentUpon>PeoplePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\PreRenewalAgendaWizard.resx">
+      <DependentUpon>PreRenewalAgendaWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\RenewalLetterWizard.resx">
+      <DependentUpon>RenewalLetterWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wizards\SummaryOfDiscussionWizard.resx">
+      <DependentUpon>SummaryOfDiscussionWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="OAMPS.Office.Word_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ThisAddIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Solution Items\RegistryKeys\Keys.reg" />
+    <None Include="Solution Items\RegistryKeys\Office15OBS.reg" />
+    <None Include="ThisAddIn.Designer.xml">
+      <DependentUpon>ThisAddIn.cs</DependentUpon>
+    </None>
+    <Compile Include="ThisAddIn.Designer.cs">
+      <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aga.Controls\Aga.Controls.csproj">
+      <Project>{E73BB233-D88B-44A7-A98F-D71EE158381D}</Project>
+      <Name>Aga.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OAMPS.Office.BusinessLogic\OAMPS.Office.BusinessLogic.csproj">
+      <Project>{0FF8B236-1451-4D42-BD88-415F3A17FC56}</Project>
+      <Name>OAMPS.Office.BusinessLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Solution Items\Templates\" />
+    <Folder Include="Views\Word\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ribbon.xml" />
+    <None Include="Icons\calculator.png" />
+    <Content Include="Icons\Help.ico" />
+    <Content Include="Icons\Help.png" />
+    <Content Include="Icons\pdf.png" />
+    <Content Include="Icons\Wizard.ico" />
+    <Content Include="Icons\Wizard.png" />
+    <Content Include="Includes\Microsoft.SharePoint.Client.dll" />
+    <Content Include="Includes\Microsoft.SharePoint.Client.Runtime.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project. -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- Include additional build rules for an Office application add-in. -->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" />
+  <!-- This section defines VSTO properties that describe the host-changeable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Word" HostPackage="{20A848B8-E01F-4801-962E-25DB0FF57389}" OfficeVersion="14.0" VstxVersion="4.0" ApplicationType="Word" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\14.0\Word\InstallRoot\Path#WINWORD.EXE" DebugInfoCommandLine="/w" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
+        <Host Name="Word" GeneratedCodeNamespace="OAMPS.Office.Word" PublishedHash="69C324AB27932AA2FBF2B7EA72250886FF164DE6" IconIndex="0">
+          <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" PublishedHash="AA550A54B315C8A4CA8B6066AF4056954EE8221B" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

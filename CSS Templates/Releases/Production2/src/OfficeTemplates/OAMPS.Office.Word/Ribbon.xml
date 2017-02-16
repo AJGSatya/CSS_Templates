@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id="oamps" label="OAMPS" >
+                <group id="grpOAMPS" label="OAMPS">
+                    <button id="btnWizard" onAction="btnWizard_Click" label="Wizard" getImage="GetImage" size="large" />
+                    <button id="btnHelp" onAction="btnHelp_Click" label="Help" size="large" getImage="GetImage"  />
+                    <button id="btnUpdateFields" onAction="btnUpdateFields_Click" label="Refresh Summary Table" getImage="GetImage" size="large" />
+                    <button id="btnAbout" onAction="btnAbout_Click" label="About" getImage="GetImage" size="large" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
